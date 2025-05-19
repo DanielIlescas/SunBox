@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunBox - Kits Solares</title>
+  <meta name="description" content="SunBox ofrece kits solares accesibles y fáciles de instalar para hogares. Compra tu kit solar básico o avanzado y empieza a ahorrar energía.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-image: url('fondo-solar.jpg');
+      background-size: cover;
+      background-position: center;
+      color: black;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header img.logo {
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .kit {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 1rem auto;
+    }
+
+    .redes {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .redes a {
+      margin: 0 10px;
+      font-size: 20px;
+      color: #004d40;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #f9a825;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #f57f17;
+    }
+
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+      .kit {
+        font-size: 14px;
+      }
+      header img.logo {
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-sunbox.png" alt="Logo de SunBox - Energía solar para hogares" class="logo">
+    <h1>Energía Solar para tu Hogar</h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#redes">Redes Sociales</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="productos">
+      <h2>Productos</h2>
+      <div class="kit">
+        <h3>Kit Solar Básico</h3>
+        <p>Incluye 1 panel de 150W, batería, controlador y cables.</p>
+        <p><strong>Precio: 199 €</strong></p>
+        <button onclick="window.location.href='compra.html'">Comprar</button>
+      </div>
+      <div class="kit">
+        <h3>Kit Solar Avanzado</h3>
+        <p>Incluye 2 paneles de 300W, batería, inversor, controlador y cables.</p>
+        <p><strong>Precio: 449 €</strong></p>
+        <button onclick="window.location.href='compra.html'">Comprar</button>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <h2>¿Cómo funciona?</h2>
+      <p>Enviamos tu kit solar a domicilio en 3 a 5 días. También ofrecemos asistencia para la instalación si lo deseas.</p>
+    </section>
+
+    <section id="redes">
+      <h2>Síguenos en Redes Sociales</h2>
+      <div class="redes">
+        <a href="https://www.instagram.com/sunboxspain" target="_blank">Instagram</a>
+        <a href="https://twitter.com/SunBoxSpain" target="_blank">Twitter</a>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes dudas? Escríbenos a: <strong>sunbox636@gmail.com</strong></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SunBox. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
